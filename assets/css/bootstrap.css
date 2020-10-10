@@ -9,6 +9,9 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+.logo{
+  text-align: center;
+}
 body {
   margin: 0;
 }
@@ -1183,7 +1186,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Phosphate;
+  font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1264,7 +1267,7 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 46px;
+  font-size: 36px;
 }
 h2,
 .h2 {
@@ -3001,7 +3004,7 @@ select[multiple].input-lg {
   }
 }
 .btn {
-  display: none;
+  display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
   font-size: 14px;

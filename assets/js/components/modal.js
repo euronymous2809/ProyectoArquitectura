@@ -11,7 +11,7 @@ const ContruirModal = (recipient, id, nombre) => {
   const img = $(`<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${recipient}.png" alt="">`);
   const divInfo = $('<div class="poke-modal-info"></div>');
   const name = $(`<h5 class="poke-name gris-oscuro">${nombre}</h5>`);
-  
+  const divEnlaces = $('<div class="enlaces center-block"></div');
   const detail = $('<a href="#" class = "pokeball"></a>');
   const like = $('<a href="#" class = "like"></a>');
   const share = $('<a href="#" class = "share"></a>');

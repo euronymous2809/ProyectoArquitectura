@@ -2,11 +2,6 @@
   font-family: "Flexo";
   src: url("../font/Flexo/Flexo-Demi.otf");
 }
-.logo{
-  display: block;
-  margin: auto;
-  text-align: center;
-}
 *{
   box-sizing: border-box;
   font-family: "Flexo", sans-serif;
@@ -58,7 +53,7 @@ body{
   padding: 0;
 }
 header h1{
-  color: blue;
+  color: red;
   text-align: center;
 }
 
@@ -72,8 +67,8 @@ header h1{
 }
 .search input{
   border: none;
-  background-color: rgb(118, 174, 214);
-  border-bottom: 3px solid black;
+  background-color: transparent;
+  border-bottom: 2px solid lightgray;
   width: 70%;
   height: 35px;
   padding-left: 3.3rem;
@@ -101,8 +96,8 @@ header h1{
   padding: 0;
 }
 .pokemonContainer{
-  margin-bottom: 0px;
-  min-height: 225px;
+  margin-bottom: -45px;
+  min-height: 200px;
 }
 .poke-container img{
   width: 100%;
@@ -111,7 +106,7 @@ header h1{
   width: 115px;
 }
 .enlaces a{
-  width: 18px;
+  
   height: 18px;
   display: inline-block;
   background-repeat: no-repeat;
@@ -141,8 +136,8 @@ header h1{
 }
 .poke-name{
   text-transform: capitalize;
-  font-size: 1.5rem;
-  margin-top: 5px;
+  font-size: 2rem;
+  margin-top: -23px;
 }
 
 /*modal*/
@@ -226,7 +221,7 @@ header h1{
 @media (min-width: 450px){
   .div-search{
     display: flex;
-    align-items: center
+    align-items: baseline;
   }
   .modal-name{
     font-size: 4rem;
@@ -251,7 +246,7 @@ header h1{
 @media (min-width:450px) and (max-width:650px){
 
   .pokemonContainer{
-    width: 90%;
+    width: 50%;
   }
   .search{
     width: 80%;
@@ -267,7 +262,7 @@ header h1{
 @media (min-width:650px) and (max-width:780px){
 
   .pokemonContainer{
-    width: 20%;
+    width: 33%;
   }
   .search{
     width: 80%;
@@ -282,6 +277,6 @@ header h1{
 }
 @media (min-width: 990px){
   .col-md-2{
-    width: 20%;
+    width: 12%;
   }
 }
