@@ -1089,7 +1089,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #deffea;
 }
 input,
 button,
@@ -3175,7 +3175,7 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-success {
   color: #fff;
-  background-color: #5cb85c;
+  background-color: #008f6d;
   border-color: #4cae4c;
 }
 .btn-success:focus,

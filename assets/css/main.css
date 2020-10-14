@@ -26,7 +26,7 @@
   background-color: #dbdbdb;
 }
 .gris-modal{
-  background-color: #edecec;
+  background-color: #deffea;
   width: 86%;
   position: relative;
 }
@@ -155,7 +155,7 @@ header h1{
   width: 100%;
 }
 .closed{
-  background-image: url("../icon/cross-out.png");
+  background-image: url("../img/cross-out.png");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;

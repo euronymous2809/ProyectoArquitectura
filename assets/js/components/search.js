@@ -45,7 +45,7 @@ const Search = (updated) => {
   const divSearch = $('<div class="container div-search"></div>');
   const search = $('<div class="search col-xs-12 col-sm-9"></div>');
   const icon = $('<i class="glyphicon glyphicon-search lupa"></i>');
-  const input = $('<input type="text" id="search">');
+  const input = $('<input type="text" id="search" placeholder="Escriba el nombre de un Pokémon">');
   const button = $('<div class="button-order col-xs-3"><button class="btn btn-success">A - Z</button></div>')
   const pokemonContainer = $('<div class="container-pokemon container"></div>')
 
